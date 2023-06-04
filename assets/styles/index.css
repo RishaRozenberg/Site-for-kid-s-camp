@@ -37,7 +37,6 @@ html {
 .add>img {
     width: 14.09px;
     height: 12.91px;
-    /* margin-left: 21.5%; */
 }
 
 .add p {
@@ -154,12 +153,15 @@ header {
 }
 
 .contact-header button {
-    color: #fff;
     background-color: #43C060;
     border-radius: 10px;
     border-color: transparent;
     width: 190px;
     height: 70px;
+}
+
+#color-button {
+    color: #fff;
 }
 
 .main-text-s1 {

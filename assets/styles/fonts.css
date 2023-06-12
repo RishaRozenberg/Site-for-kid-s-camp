@@ -1,3 +1,6 @@
+/* 1920px 1024 768 480 320 */
+
+
 .text-400-16 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -8,13 +11,13 @@
 .text-400-18 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: calc(11px + 9 * (100vw / 1920));
 }
 
 .text-400-24 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: calc(15px + 9 * (100vw / 1920));
 }
 
 .text-600-16 {
@@ -33,15 +36,13 @@
 .text-600-24 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: calc(15px + 9 * (100vw / 1920));
 }
 
 .text-600-36 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 43.88px;
+    font-size: calc(23px + 13 * (100vw / 1920));
 }
 
 .text-600-42 {
